@@ -1,0 +1,10 @@
+{
+    "domain": "invoice_simulator",
+    "name": "Energey invoice simulator",
+    "version": "1.0.0",
+    "documentation": "https://github.com/dlepcz/home-assistant-energy-invoice-simulator",
+    "requirements": [],
+    "dependencies": [],
+    "codeowners": ["@dlepcz"],
+    "config_flow": true
+  }

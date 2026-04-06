@@ -1,0 +1,10 @@
+{
+    "name": "Energey invoice simulator",
+    "content_in_root": false,
+    "domains": ["sensor"],
+    "country": "PL",
+    "render_readme": true,
+    "homeassistant": "2025.10.0",
+    "iot_class": "local_poll",
+    "integration_type": "integration"
+}
