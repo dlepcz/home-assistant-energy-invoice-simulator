@@ -1,0 +1,37 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Invoice simulator",
+        "description": "Select the source sensors for imported and exported energy.",
+        "data": {
+          "import_sensor": "Import energy sensor",
+          "export_sensor": "Export energy sensor"
+        }
+      }
+    },
+    "error": {
+      "invalid_energy_sensor": "Selected entity is not a valid energy sensor.",
+      "same_sensor_selected": "Import and export sensors must be different."
+    },
+    "abort": {
+      "already_configured": "This combination of sensors is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Invoice simulator options",
+        "description": "Update the source sensors.",
+        "data": {
+          "import_sensor": "Import energy sensor",
+          "export_sensor": "Export energy sensor"
+        }
+      }
+    },
+    "error": {
+      "invalid_energy_sensor": "Selected entity is not a valid energy sensor.",
+      "same_sensor_selected": "Import and export sensors must be different."
+    }
+  }
+}
